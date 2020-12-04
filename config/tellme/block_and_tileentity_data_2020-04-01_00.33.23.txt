@@ -1,6 +1,0 @@
-Peach (harvestcraft:pampeach - 1814:1) no TileEntity
-Full block state: harvestcraft:pampeach[age=1]
-Hardness: 5.0000, Explosion resistance: 0.0000, Material: PLANTS
-Block class: com.pam.harvestcraft.blocks.growables.BlockPamFruit
-IBlockState properties, including getActualState():
-PropertyInteger{name=age, clazz=class java.lang.Integer, values=[0, 1, 2]}: 1

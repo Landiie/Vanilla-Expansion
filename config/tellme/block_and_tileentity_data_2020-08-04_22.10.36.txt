@@ -1,7 +1,0 @@
-Oak Wood (minecraft:log - 17:4) no TileEntity
-Full block state: minecraft:log[axis=x,variant=oak]
-Hardness: 2.0000, Explosion resistance: 2.0000, Material: WOOD
-Block class: net.minecraft.block.BlockOldLog
-IBlockState properties, including getActualState():
-PropertyEnum{name=axis, clazz=class net.minecraft.block.BlockLog$EnumAxis, values=[x, y, z, none]}: x
-PropertyEnum{name=variant, clazz=class net.minecraft.block.BlockPlanks$EnumType, values=[oak, spruce, birch, jungle]}: oak

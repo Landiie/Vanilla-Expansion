@@ -1,6 +1,0 @@
-Potato (minecraft:potatoes - 142:7) no TileEntity
-Full block state: minecraft:potatoes[age=7]
-Hardness: 0.0000, Explosion resistance: 0.0000, Material: PLANTS
-Block class: net.minecraft.block.BlockPotato
-IBlockState properties, including getActualState():
-PropertyInteger{name=age, clazz=class java.lang.Integer, values=[0, 1, 2, 3, 4, 5, 6, 7]}: 7

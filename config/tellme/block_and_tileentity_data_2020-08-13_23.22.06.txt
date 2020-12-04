@@ -1,5 +1,0 @@
-Magma Block (minecraft:magma - 213:0) no TileEntity
-Full block state: minecraft:magma
-Hardness: 0.5000, Explosion resistance: 0.5000, Material: ROCK
-Block class: xFra.WaterMechanics.BlockNewMagma
-IBlockState properties: <none>

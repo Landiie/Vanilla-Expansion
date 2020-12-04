@@ -1,6 +1,0 @@
-Grass (minecraft:tallgrass - 31:1) no TileEntity
-Full block state: minecraft:tallgrass[type=tall_grass]
-Hardness: 0.0000, Explosion resistance: 0.0000, Material: VINE
-Block class: net.minecraft.block.BlockTallGrass
-IBlockState properties, including getActualState():
-PropertyEnum{name=type, clazz=class net.minecraft.block.BlockTallGrass$EnumType, values=[dead_bush, tall_grass, fern]}: tall_grass

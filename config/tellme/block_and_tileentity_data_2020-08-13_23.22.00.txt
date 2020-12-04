@@ -1,5 +1,0 @@
-Frostburn Ice (netherex:frostburn_ice - 1639:0) no TileEntity
-Full block state: netherex:frostburn_ice
-Hardness: 0.5000, Explosion resistance: 0.6000, Material: ICE
-Block class: logictechcorp.netherex.block.BlockFrostburnIce
-IBlockState properties: <none>

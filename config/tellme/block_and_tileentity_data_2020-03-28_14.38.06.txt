@@ -1,6 +1,0 @@
-Blaze Rod (quark:blaze_rod - 764:1) no TileEntity
-Full block state: quark:blaze_rod[facing=up]
-Hardness: 5.0000, Explosion resistance: 6.0000, Material: IRON
-Block class: vazkii.quark.decoration.block.BlockBlazeRod
-IBlockState properties, including getActualState():
-PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[down, up, north, south, west, east]}: up

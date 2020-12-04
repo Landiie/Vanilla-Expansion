@@ -1,5 +1,0 @@
-Infectious Mushroom (minestrapp:infected_mushroom - 277:0) no TileEntity
-Full block state: minestrapp:infected_mushroom
-Hardness: 0.0000, Explosion resistance: 0.0000, Material: PLANTS
-Block class: minestrapp.block.BlockInfectedMushroom
-IBlockState properties: <none>
