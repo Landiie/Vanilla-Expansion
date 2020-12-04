@@ -1,0 +1,72 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "minecraft:barrier"
+          ]
+        }
+      },
+      "replaceStrategy": "ADD",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 1
+            }
+          },
+          "item": {
+            "items": [
+              "contenttweaker:p_peach"
+            ],
+            "quantity": {
+              "fixed": 1
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 500
+            }
+          }
+        }
+      ]
+    },
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "harvestcraft:pamblueberrycrop:3"
+          ]
+        }
+      },
+      "replaceStrategy": "ADD",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 25
+            }
+          },
+          "item": {
+            "items": [
+              "minecraft:diamond"
+            ],
+            "quantity": {
+              "fixed": 1
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 75
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+Totem of Returning (charm:totem_of_returning - 5970:0) has NBT data
+
+{uses:2}
+
+TAG_Compound (10) ('')
+{
+    TAG_Int (3) ('uses'): 2
+}

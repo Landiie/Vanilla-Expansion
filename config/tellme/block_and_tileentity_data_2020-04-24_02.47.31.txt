@@ -1,0 +1,15 @@
+Bounty Board (bountiful:bountyboard - 1677:0) has a TileEntity
+Full block state: bountiful:bountyboard
+Hardness: 2.0000, Explosion resistance: 2.0000, Material: WOOD
+Block class: ejektaflex.bountiful.block.BlockBountyBoard
+IBlockState properties: <none>
+TileEntity class: ejektaflex.bountiful.block.TileEntityBountyBoard
+
+TileEntity NBT (from TileEntity#writeToNBT()):
+TAG_Compound (10) ('')
+{
+    TAG_Int (3) ('x'): 39
+    TAG_Int (3) ('y'): 97
+    TAG_Int (3) ('z'): 222
+    TAG_String (8) ('id'): "bountiful:bountyboard"
+}

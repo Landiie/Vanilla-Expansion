@@ -1,0 +1,31 @@
+name: minestrapp_salt_ore
+mod: quark
+block: {
+  location: minestrapp:ore_salt:6
+  hardness: 3
+  level: 1
+}
+loot: [
+  {
+    item: minestrapp:salt
+    count: [ 1, 2 ]
+    xp: [ 1, 2 ]
+    chance: 1
+  }
+]
+texture: {
+  original: minestrapp:blocks/ore/ore_salt_glacierrock
+  background: minestrapp:blocks/stone/glacierrock
+}
+recipe: {
+  result: minestrapp:salt
+  xp: 0.1
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 0, 128 ]
+    size: 8
+    count: 8
+  }
+]

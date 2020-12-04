@@ -1,0 +1,6 @@
+Hanging Glow Moss (minestrapp:hanging_glow_moss - 294:0) no TileEntity
+Full block state: minestrapp:hanging_glow_moss[bottom=false]
+Hardness: 0.0000, Explosion resistance: 0.0000, Material: VINE
+Block class: minestrapp.block.BlockHangingMoss
+IBlockState properties, including getActualState():
+PropertyBool{name=bottom, clazz=class java.lang.Boolean, values=[true, false]}: false

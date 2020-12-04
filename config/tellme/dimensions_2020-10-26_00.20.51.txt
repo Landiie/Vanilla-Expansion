@@ -1,0 +1,15 @@
++-----+------------------+-----------------+-----------------+------------------+------------------------------------------------------------------------------+
+|  ID | DimensionType ID | Name            | shouldLoadSpawn | Currently loaded | WorldProvider class                                                          |
++-----+------------------+-----------------+-----------------+------------------+------------------------------------------------------------------------------+
+|   0 |                0 | overworld       |            true |             true | net.minecraft.world.WorldProviderSurface                                     |
+| 684 |              684 | limbo           |           false |            false | org.dimdev.dimdoors.shared.world.limbo.WorldProviderLimbo                    |
+| 685 |              685 | private_pockets |           false |            false | org.dimdev.dimdoors.shared.world.pocketdimension.WorldProviderPersonalPocket |
+| 686 |              686 | public_pockets  |           false |            false | org.dimdev.dimdoors.shared.world.pocketdimension.WorldProviderPublicPocket   |
+| 687 |              687 | dungeon_pockets |           false |            false | org.dimdev.dimdoors.shared.world.pocketdimension.WorldProviderDungeonPocket  |
+| 688 |              687 | dungeon_pockets |           false |            false | org.dimdev.dimdoors.shared.world.pocketdimension.WorldProviderDungeonPocket  |
+| 424 |              424 | theaurorian     |           false |            false | com.elseytd.theaurorian.World.TAWorldProvider                                |
+|   1 |                1 | End             |           false |            false | fluke.stygian.world.WorldProviderEndBiomes                                   |
+|  -1 |               -1 | Nether          |           false |            false | logictechcorp.netherex.world.WorldProviderNetherEx                           |
++-----+------------------+-----------------+-----------------+------------------+------------------------------------------------------------------------------+
+|  ID | DimensionType ID | Name            | shouldLoadSpawn | Currently loaded | WorldProvider class                                                          |
++-----+------------------+-----------------+-----------------+------------------+------------------------------------------------------------------------------+

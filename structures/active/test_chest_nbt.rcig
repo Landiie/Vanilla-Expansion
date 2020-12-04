@@ -1,0 +1,147 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "nbt_test",
+  "items": [
+    {
+      "weight": 8.315797805786133,
+      "min": 1,
+      "max": 18,
+      "item": {
+        "id": "minecraft:chest",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "BlockEntityTag": {
+              "nbtType": "compound",
+              "nbt": {
+                "ForgeCaps": {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "charset:multiblock_structure": {
+                      "nbtType": "compound",
+                      "nbt": {}
+                    }
+                  }
+                },
+                "Items": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "compound",
+                      "nbt": {
+                        "Slot": {
+                          "nbtType": "byte",
+                          "nbt": 0
+                        },
+                        "id": {
+                          "nbtType": "string",
+                          "nbt": "thermalfoundation:armor.boots_platinum"
+                        },
+                        "Count": {
+                          "nbtType": "byte",
+                          "nbt": 1
+                        },
+                        "Damage": {
+                          "nbtType": "short",
+                          "nbt": 0
+                        }
+                      }
+                    },
+                    {
+                      "nbtType": "compound",
+                      "nbt": {
+                        "Slot": {
+                          "nbtType": "byte",
+                          "nbt": 1
+                        },
+                        "id": {
+                          "nbtType": "string",
+                          "nbt": "minecraft:golden_shovel"
+                        },
+                        "Count": {
+                          "nbtType": "byte",
+                          "nbt": 1
+                        },
+                        "Damage": {
+                          "nbtType": "short",
+                          "nbt": 26
+                        }
+                      }
+                    },
+                    {
+                      "nbtType": "compound",
+                      "nbt": {
+                        "Slot": {
+                          "nbtType": "byte",
+                          "nbt": 2
+                        },
+                        "id": {
+                          "nbtType": "string",
+                          "nbt": "thermalfoundation:tool.sword_platinum"
+                        },
+                        "Count": {
+                          "nbtType": "byte",
+                          "nbt": 1
+                        },
+                        "Damage": {
+                          "nbtType": "short",
+                          "nbt": 17
+                        }
+                      }
+                    },
+                    {
+                      "nbtType": "compound",
+                      "nbt": {
+                        "Slot": {
+                          "nbtType": "byte",
+                          "nbt": 3
+                        },
+                        "id": {
+                          "nbtType": "string",
+                          "nbt": "thermalfoundation:tool.shovel_platinum"
+                        },
+                        "Count": {
+                          "nbtType": "byte",
+                          "nbt": 1
+                        },
+                        "Damage": {
+                          "nbtType": "short",
+                          "nbt": 0
+                        }
+                      }
+                    }
+                  ]
+                },
+                "id": {
+                  "nbtType": "string",
+                  "nbt": "minecraft:chest"
+                },
+                "Lock": {
+                  "nbtType": "string",
+                  "nbt": ""
+                }
+              }
+            },
+            "display": {
+              "nbtType": "compound",
+              "nbt": {
+                "Lore": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "(+NBT)"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

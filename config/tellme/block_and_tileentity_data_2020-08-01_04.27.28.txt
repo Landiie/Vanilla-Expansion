@@ -1,0 +1,27 @@
+Spruce Trapped Chest (quark:custom_chest_trap - 838:2) has a TileEntity
+Full block state: quark:custom_chest_trap[facing=north]
+Hardness: 2.5000, Explosion resistance: 2.5000, Material: WOOD
+Block class: vazkii.quark.decoration.block.BlockCustomChest
+IBlockState properties, including getActualState():
+PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}: north
+TileEntity class: vazkii.quark.decoration.tile.TileCustomChest
+
+TileEntity NBT (from TileEntity#writeToNBT()):
+TAG_Compound (10) ('')
+{
+    TAG_Int (3) ('x'): -126
+    TAG_Int (3) ('y'): 75
+    TAG_Compound (10) ('ForgeCaps')
+    {
+        TAG_Compound (10) ('charset:multiblock_structure')
+        {
+        }
+    }
+    TAG_Int (3) ('z'): 257
+    TAG_List (9) ('Items') (0 entries of TAG_End (0))
+    {
+    }
+    TAG_String (8) ('id'): "quark:quark_chest"
+    TAG_String (8) ('type'): "spruce"
+    TAG_String (8) ('Lock'): ""
+}

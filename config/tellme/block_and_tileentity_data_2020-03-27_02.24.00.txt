@@ -1,0 +1,35 @@
+Banana (plonk:placed_items - 2774:1) has a TileEntity
+Full block state: plonk:placed_items[facing=up]
+Hardness: 0.0000, Explosion resistance: 0.0000, Material: unknown
+Block class: com.breakinblocks.plonk.common.block.BlockPlacedItems
+IBlockState properties, including getActualState():
+PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[down, up, north, south, west, east]}: up
+TileEntity class: com.breakinblocks.plonk.common.tile.TilePlacedItems
+
+TileEntity NBT (from TileEntity#writeToNBT()):
+TAG_Compound (10) ('')
+{
+    TAG_Int (3) ('x'): 1328
+    TAG_Int (3) ('y'): 66
+    TAG_Int (3) ('z'): -341
+    TAG_List (9) ('Items') (2 entries of TAG_Compound (10))
+    {
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 0
+            TAG_String (8) ('id'): "minecraft:apple"
+            TAG_Byte (1) ('Count'): 13
+            TAG_Short (2) ('Damage'): 0
+            TAG_Int (3) ('RenderType'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Slot'): 1
+            TAG_String (8) ('id'): "harvestcraft:bananaitem"
+            TAG_Byte (1) ('Count'): 15
+            TAG_Short (2) ('Damage'): 0
+            TAG_Int (3) ('RenderType'): 0
+        }
+    }
+    TAG_String (8) ('id'): "plonk:placed_items"
+}

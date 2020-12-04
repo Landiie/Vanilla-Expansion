@@ -1,0 +1,2 @@
+gamerule commandBlockOutput false
+playsound custom.advnormal master @p ~ ~ ~ 1 1 1

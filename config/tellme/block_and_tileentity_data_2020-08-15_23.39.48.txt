@@ -1,0 +1,6 @@
+minecraft:water (minecraft:water - 9:0) no TileEntity
+Full block state: minecraft:water[level=0]
+Hardness: 100.0000, Explosion resistance: 100.0000, Material: WATER
+Block class: net.minecraft.block.BlockStaticLiquid
+IBlockState properties, including getActualState():
+PropertyInteger{name=level, clazz=class java.lang.Integer, values=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]}: 0

@@ -1,0 +1,13 @@
+{
+  "data": [
+    {
+      "biomes": "type\u003dEND"
+    }
+  ],
+  "metadata": {
+    "title": "The End",
+    "description": [
+      "End dimension biome"
+    ]
+  }
+}

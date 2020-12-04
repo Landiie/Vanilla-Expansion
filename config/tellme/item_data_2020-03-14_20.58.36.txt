@@ -1,0 +1,16 @@
+Diamond Pickaxe (minecraft:diamond_pickaxe - 278:26) has NBT data
+
+{ench:[{lvl:3s,id:54s}],lava_storage:224}
+
+TAG_Compound (10) ('')
+{
+    TAG_List (9) ('ench') (1 entries of TAG_Compound (10))
+    {
+        TAG_Compound (10) ('')
+        {
+            TAG_Short (2) ('lvl'): 3
+            TAG_Short (2) ('id'): 54
+        }
+    }
+    TAG_Int (3) ('lava_storage'): 224
+}

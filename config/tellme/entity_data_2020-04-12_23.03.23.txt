@@ -1,0 +1,168 @@
+Entity: Villager [registry name: minecraft:villager] (entityId: 24979)
+Entity class: net.minecraft.entity.passive.EntityVillager
+
+
+TAG_Compound (10) ('')
+{
+    TAG_Int (3) ('HurtByTimestamp'): 24446
+    TAG_Compound (10) ('ForgeData')
+    {
+    }
+    TAG_List (9) ('RelativeAABB') (6 entries of TAG_Double (6))
+    {
+        TAG_Double (6) (''): -0.30000001192092896
+        TAG_Double (6) (''): 0.0
+        TAG_Double (6) (''): -0.30000001192092896
+        TAG_Double (6) (''): 0.30000001192092896
+        TAG_Double (6) (''): 1.9500000476837158
+        TAG_Double (6) (''): 0.30000001192092896
+    }
+    TAG_List (9) ('Attributes') (7 entries of TAG_Compound (10))
+    {
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 20.0
+            TAG_String (8) ('Name'): "generic.maxHealth"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.0
+            TAG_String (8) ('Name'): "generic.knockbackResistance"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.5
+            TAG_String (8) ('Name'): "generic.movementSpeed"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.0
+            TAG_String (8) ('Name'): "generic.armor"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.0
+            TAG_String (8) ('Name'): "generic.armorToughness"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 1.0
+            TAG_String (8) ('Name'): "forge.swimSpeed"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 16.0
+            TAG_List (9) ('Modifiers') (1 entries of TAG_Compound (10))
+            {
+                TAG_Compound (10) ('')
+                {
+                    TAG_Long (4) ('UUIDMost'): -1710048113442272737
+                    TAG_Long (4) ('UUIDLeast'): -7012270159994576338
+                    TAG_Double (6) ('Amount'): 0.10166621025690595
+                    TAG_Int (3) ('Operation'): 1
+                    TAG_String (8) ('Name'): "Random spawn bonus"
+                }
+            }
+            TAG_String (8) ('Name'): "generic.followRange"
+        }
+    }
+    TAG_Int (3) ('Riches'): 0
+    TAG_Byte (1) ('Invulnerable'): 0
+    TAG_Byte (1) ('FallFlying'): 0
+    TAG_Int (3) ('ForcedAge'): 0
+    TAG_Int (3) ('PortalCooldown'): 0
+    TAG_Float (5) ('AbsorptionAmount'): 0.0
+    TAG_Float (5) ('FallDistance'): 0.0
+    TAG_Short (2) ('DeathTime'): 0
+    TAG_List (9) ('HandDropChances') (2 entries of TAG_Float (5))
+    {
+        TAG_Float (5) (''): 0.085
+        TAG_Float (5) (''): 0.085
+    }
+    TAG_Byte (1) ('PersistenceRequired'): 0
+    TAG_String (8) ('id'): "minecraft:villager"
+    TAG_Int (3) ('Age'): 0
+    TAG_List (9) ('Motion') (3 entries of TAG_Double (6))
+    {
+        TAG_Double (6) (''): 0.0
+        TAG_Double (6) (''): -0.0784000015258789
+        TAG_Double (6) (''): -1.1694544473578066E-8
+    }
+    TAG_Byte (1) ('Leashed'): 0
+    TAG_Long (4) ('UUIDLeast'): -5317591934005303516
+    TAG_Float (5) ('Health'): 19.0
+    TAG_Byte (1) ('LeftHanded'): 0
+    TAG_Short (2) ('Air'): 300
+    TAG_Byte (1) ('OnGround'): 1
+    TAG_Int (3) ('Dimension'): 0
+    TAG_Compound (10) ('Offers')
+    {
+        TAG_List (9) ('Recipes') (0 entries of TAG_End (0))
+        {
+        }
+    }
+    TAG_List (9) ('Rotation') (2 entries of TAG_Float (5))
+    {
+        TAG_Float (5) (''): 90.014435
+        TAG_Float (5) (''): 0.0
+    }
+    TAG_Byte (1) ('UpdateBlocked'): 0
+    TAG_List (9) ('HandItems') (2 entries of TAG_Compound (10))
+    {
+        TAG_Compound (10) ('')
+        {
+        }
+        TAG_Compound (10) ('')
+        {
+        }
+    }
+    TAG_String (8) ('ProfessionName'): "vtt:tinkerer"
+    TAG_List (9) ('ArmorDropChances') (4 entries of TAG_Float (5))
+    {
+        TAG_Float (5) (''): 0.085
+        TAG_Float (5) (''): 0.085
+        TAG_Float (5) (''): 0.085
+        TAG_Float (5) (''): 0.085
+    }
+    TAG_Int (3) ('Profession'): 8
+    TAG_Long (4) ('UUIDMost'): 1913322306832777511
+    TAG_List (9) ('Pos') (3 entries of TAG_Double (6))
+    {
+        TAG_Double (6) (''): 719.9875000119209
+        TAG_Double (6) (''): 73.0
+        TAG_Double (6) (''): -398.4998771370685
+    }
+    TAG_Short (2) ('Fire'): -1
+    TAG_List (9) ('ArmorItems') (4 entries of TAG_Compound (10))
+    {
+        TAG_Compound (10) ('')
+        {
+        }
+        TAG_Compound (10) ('')
+        {
+        }
+        TAG_Compound (10) ('')
+        {
+        }
+        TAG_Compound (10) ('')
+        {
+        }
+    }
+    TAG_Byte (1) ('CanPickUpLoot'): 1
+    TAG_Short (2) ('HurtTime'): 0
+    TAG_Int (3) ('CareerLevel'): 1
+    TAG_List (9) ('SurgeAABB') (6 entries of TAG_Double (6))
+    {
+        TAG_Double (6) (''): 719.6875
+        TAG_Double (6) (''): 73.0
+        TAG_Double (6) (''): -398.7998771489894
+        TAG_Double (6) (''): 720.2875000238419
+        TAG_Double (6) (''): 74.95000004768372
+        TAG_Double (6) (''): -398.19987712514757
+    }
+    TAG_Int (3) ('Career'): 1
+    TAG_List (9) ('Inventory') (0 entries of TAG_End (0))
+    {
+    }
+    TAG_Byte (1) ('Willing'): 0
+}

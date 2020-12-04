@@ -1,0 +1,163 @@
+Entity: Frost [registry name: netherex:frost] (entityId: 3176)
+Entity class: logictechcorp.netherex.entity.monster.EntityFrost
+
+
+TAG_Compound (10) ('')
+{
+    TAG_Int (3) ('HurtByTimestamp'): 0
+    TAG_Compound (10) ('ForgeData')
+    {
+    }
+    TAG_List (9) ('RelativeAABB') (6 entries of TAG_Double (6))
+    {
+        TAG_Double (6) (''): -0.30000001192092896
+        TAG_Double (6) (''): 0.0
+        TAG_Double (6) (''): -0.30000001192092896
+        TAG_Double (6) (''): 0.30000001192092896
+        TAG_Double (6) (''): 1.7999999523162842
+        TAG_Double (6) (''): 0.30000001192092896
+    }
+    TAG_List (9) ('Attributes') (8 entries of TAG_Compound (10))
+    {
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 20.0
+            TAG_String (8) ('Name'): "generic.maxHealth"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.0
+            TAG_String (8) ('Name'): "generic.knockbackResistance"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.23000000417232513
+            TAG_String (8) ('Name'): "generic.movementSpeed"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.0
+            TAG_String (8) ('Name'): "generic.armor"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.0
+            TAG_String (8) ('Name'): "generic.armorToughness"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 1.0
+            TAG_String (8) ('Name'): "forge.swimSpeed"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 48.0
+            TAG_List (9) ('Modifiers') (1 entries of TAG_Compound (10))
+            {
+                TAG_Compound (10) ('')
+                {
+                    TAG_Long (4) ('UUIDMost'): -8116017376236189400
+                    TAG_Long (4) ('UUIDLeast'): -6214564169458024842
+                    TAG_Double (6) ('Amount'): -0.01420509261659287
+                    TAG_Int (3) ('Operation'): 1
+                    TAG_String (8) ('Name'): "Random spawn bonus"
+                }
+            }
+            TAG_String (8) ('Name'): "generic.followRange"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 6.0
+            TAG_String (8) ('Name'): "generic.attackDamage"
+        }
+    }
+    TAG_Byte (1) ('Invulnerable'): 0
+    TAG_Byte (1) ('FallFlying'): 0
+    TAG_Int (3) ('PortalCooldown'): 0
+    TAG_Float (5) ('AbsorptionAmount'): 0.0
+    TAG_Float (5) ('FallDistance'): 0.0
+    TAG_Short (2) ('DeathTime'): 0
+    TAG_Compound (10) ('ForgeCaps')
+    {
+        TAG_Compound (10) ('champions:championship')
+        {
+            TAG_Int (3) ('tier'): 0
+        }
+    }
+    TAG_List (9) ('HandDropChances') (2 entries of TAG_Float (5))
+    {
+        TAG_Float (5) (''): 0.085
+        TAG_Float (5) (''): 0.085
+    }
+    TAG_Byte (1) ('PersistenceRequired'): 0
+    TAG_String (8) ('id'): "netherex:frost"
+    TAG_List (9) ('Motion') (3 entries of TAG_Double (6))
+    {
+        TAG_Double (6) (''): 0.0
+        TAG_Double (6) (''): -0.0784000015258789
+        TAG_Double (6) (''): 0.0
+    }
+    TAG_Byte (1) ('Leashed'): 0
+    TAG_Long (4) ('UUIDLeast'): -7056543902313791169
+    TAG_Float (5) ('Health'): 20.0
+    TAG_Byte (1) ('LeftHanded'): 0
+    TAG_Short (2) ('Air'): 300
+    TAG_Byte (1) ('OnGround'): 1
+    TAG_Int (3) ('Dimension'): 0
+    TAG_List (9) ('Rotation') (2 entries of TAG_Float (5))
+    {
+        TAG_Float (5) (''): -22.714233
+        TAG_Float (5) (''): -34.565926
+    }
+    TAG_Byte (1) ('UpdateBlocked'): 0
+    TAG_List (9) ('HandItems') (2 entries of TAG_Compound (10))
+    {
+        TAG_Compound (10) ('')
+        {
+        }
+        TAG_Compound (10) ('')
+        {
+        }
+    }
+    TAG_List (9) ('ArmorDropChances') (4 entries of TAG_Float (5))
+    {
+        TAG_Float (5) (''): 0.085
+        TAG_Float (5) (''): 0.085
+        TAG_Float (5) (''): 0.085
+        TAG_Float (5) (''): 0.085
+    }
+    TAG_Long (4) ('UUIDMost'): 5507015215241512190
+    TAG_List (9) ('Pos') (3 entries of TAG_Double (6))
+    {
+        TAG_Double (6) (''): 42.5
+        TAG_Double (6) (''): 97.0
+        TAG_Double (6) (''): 183.5
+    }
+    TAG_Short (2) ('Fire'): -1
+    TAG_List (9) ('ArmorItems') (4 entries of TAG_Compound (10))
+    {
+        TAG_Compound (10) ('')
+        {
+        }
+        TAG_Compound (10) ('')
+        {
+        }
+        TAG_Compound (10) ('')
+        {
+        }
+        TAG_Compound (10) ('')
+        {
+        }
+    }
+    TAG_Byte (1) ('CanPickUpLoot'): 0
+    TAG_Short (2) ('HurtTime'): 0
+    TAG_List (9) ('SurgeAABB') (6 entries of TAG_Double (6))
+    {
+        TAG_Double (6) (''): 42.19999998807907
+        TAG_Double (6) (''): 97.0
+        TAG_Double (6) (''): 183.19999998807907
+        TAG_Double (6) (''): 42.80000001192093
+        TAG_Double (6) (''): 98.79999995231628
+        TAG_Double (6) (''): 183.80000001192093
+    }
+}

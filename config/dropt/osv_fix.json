@@ -1,0 +1,33 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "osv:iron_ore:1",
+            "osv:iron_ore_1:1",
+            "osv:iron_ore_3:1",
+            "osv:iron_ore_5:1"
+          ]
+        }
+      },
+      "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+      "drops": [
+        {
+          "selector": {
+            "silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items" : [
+              "minecraft:iron_ore"
+            ],
+            "quantity": {
+              "min": 3,
+              "max": 3
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
