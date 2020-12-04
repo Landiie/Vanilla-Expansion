@@ -1,0 +1,6 @@
+Cincinnasite Fire Bowl (betternether:cincinnasite_fire_bowl - 328:1) no TileEntity
+Full block state: betternether:cincinnasite_fire_bowl[state=true]
+Hardness: 3.0000, Explosion resistance: 6.0000, Material: IRON
+Block class: paulevs.betternether.blocks.BlockCincinnasitFireBowl
+IBlockState properties, including getActualState():
+PropertyBool{name=state, clazz=class java.lang.Boolean, values=[true, false]}: true

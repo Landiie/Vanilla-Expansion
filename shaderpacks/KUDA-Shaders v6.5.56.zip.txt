@@ -1,0 +1,18 @@
+#Sat Apr 18 19:51:52 MST 2020
+bloom=false
+normalMapping=false
+torchlightRadius=2.0
+YCoCg_Compression=true
+waterShader=false
+shadowDistance=60.0f
+enableTonemapping=false
+rainPuddles=false
+fixUndergroundShadows=true
+motionblur=true
+shakingCamera=true
+clouds=false
+shadowMapResolution=512
+vignette=true
+chromaticAberration=true
+reflections=false
+fogBlur=false

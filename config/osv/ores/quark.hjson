@@ -1,0 +1,35 @@
+ # This preset was generated automatically. To enable
+ # custom generation settings, you must manually define
+ # `gen`. See TUTORIAL.hjson.
+{
+  name: quark
+  mod: minecraft
+  block: {
+    location: minecraft:iron_ore
+    level: 1
+    material: ROCK
+    soundType: STONE
+    lightLevel: 0
+    resistance: 15
+    hardness: 3
+    ticksRandomly: false
+    slipperiness: 0.6000000238418579
+    tool: pickaxe
+  }
+  texture: {
+    original: minecraft:blocks/iron_ore
+  }
+  recipe: {
+    result: minecraft:iron_ingot
+    xp: 0.699999988079071
+    quantity: 1
+  }
+  loot: [
+    {
+      item: minecraft:iron_ore
+      count: [ 1, 1 ]
+      xp: [ 0, 0 ]
+      chance: 1
+    }
+  ]
+}

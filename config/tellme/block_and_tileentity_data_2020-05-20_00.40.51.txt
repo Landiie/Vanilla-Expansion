@@ -1,0 +1,6 @@
+Chorus Flower (minecraft:chorus_flower - 200:5) no TileEntity
+Full block state: minecraft:chorus_flower[age=5]
+Hardness: 0.4000, Explosion resistance: 0.4000, Material: PLANTS
+Block class: net.minecraft.block.BlockChorusFlower
+IBlockState properties, including getActualState():
+PropertyInteger{name=age, clazz=class java.lang.Integer, values=[0, 1, 2, 3, 4, 5]}: 5

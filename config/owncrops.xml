@@ -1,0 +1,19 @@
+<!--You need a resource loader mod-->
+<!--OwnCrops>
+    <item id="rice">
+        <edible amount="3" saturation="1" />
+        <plantable id="crop_rice" drop-item="owncrops:rice" drop-meta="0"/>
+    </item>
+    <item id="seed_tomato">
+        <plantable id="crop_tomato" drop-item="owncrops:tomato" drop-meta="0"/>
+    </item>
+    <item id="tomato">
+        <edible amount="4" saturation="2" />
+    </item>
+</OwnCrops-->
+<OwnCrops>
+    <item id="p_strawberry">
+        <edible amount="3" saturation="1" />
+        <plantable id="crop_pstrawberry" drop-item="owncrops:p_strawberry" drop-meta="0"/>
+    </item>
+</OwnCrops>

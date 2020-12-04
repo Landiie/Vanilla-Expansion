@@ -1,0 +1,8 @@
+printDocumentation(false)
+setAsDefaultWorldType()
+
+VB = registerPreset("Default", "thumbnails/VanillaBeyond", "The default Vanilla Beyond experience!", "quark_realistic")
+
+Hardcore = registerPreset("§4Hardcore", "thumbnails/Hardcore", "Do you think you have what it takes? §6Rewards for the victorious to use in any world you want!", "quark_realistic")
+Hardcore.enableHardcore()
+

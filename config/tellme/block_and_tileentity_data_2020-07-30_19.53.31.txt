@@ -1,0 +1,6 @@
+Honeyed Endermite Hive Husk (minestrapp:mite_hive_honeyed - 297:0) no TileEntity
+Full block state: minestrapp:mite_hive_honeyed[variant=all_outside]
+Hardness: 0.4000, Explosion resistance: 0.4000, Material: GOURD
+Block class: minestrapp.block.BlockEndermiteHiveHusk
+IBlockState properties, including getActualState():
+PropertyEnum{name=variant, clazz=class minestrapp.block.BlockEndermiteHiveHusk$EnumType, values=[north_west, north, north_east, west, center, east, south_west, south, south_east, all_inside, all_outside]}: all_outside

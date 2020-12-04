@@ -1,0 +1,7 @@
+Nether Quartz Ore (netherex:quartz_ore - 1609:0) no TileEntity
+Full block state: netherex:quartz_ore
+Hardness: 2.0000, Explosion resistance: 3.0000, Material: ROCK
+Block class: logictechcorp.netherex.block.BlockQuartzOre
+IBlockState properties: <none>
+IExtendedBlockState properties:
+PropertyDynamicTexture{name=PropertyDynamicTexture, clazz=interface net.minecraft.block.state.IBlockState, value=Optional[minecraft:netherrack]}

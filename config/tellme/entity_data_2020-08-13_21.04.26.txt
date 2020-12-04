@@ -1,0 +1,343 @@
+Entity: Jennifer [registry name: minecraft:creeper] (entityId: 1036)
+Entity class: net.minecraft.entity.monster.EntityCreeper
+
++---------------------------+-----------+----------+---------+
+| Effect                    | Amplifier | Duration | Ambient |
++---------------------------+-----------+----------+---------+
+| minecraft:regeneration    |         1 |     3790 | false   |
+| minecraft:resistance      |         1 |     3790 | false   |
+| minecraft:water_breathing |         0 |     3790 | false   |
++---------------------------+-----------+----------+---------+
+| Effect                    | Amplifier | Duration | Ambient |
++---------------------------+-----------+----------+---------+
+
+TAG_Compound (10) ('')
+{
+    TAG_Int (3) ('HurtByTimestamp'): 0
+    TAG_List (9) ('RelativeAABB') (6 entries of TAG_Double (6))
+    {
+        TAG_Double (6) (''): -0.30000001192092896
+        TAG_Double (6) (''): 0.0
+        TAG_Double (6) (''): -0.30000001192092807
+        TAG_Double (6) (''): 0.30000001192092896
+        TAG_Double (6) (''): 1.700000047683714
+        TAG_Double (6) (''): 0.30000001192092807
+    }
+    TAG_List (9) ('Attributes') (8 entries of TAG_Compound (10))
+    {
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 20.0
+            TAG_List (9) ('Modifiers') (1 entries of TAG_Compound (10))
+            {
+                TAG_Compound (10) ('')
+                {
+                    TAG_Long (4) ('UUIDMost'): 8573431963513864720
+                    TAG_Long (4) ('UUIDLeast'): -8468282749392074880
+                    TAG_Double (6) ('Amount'): 1.673624038696289
+                    TAG_Int (3) ('Operation'): 2
+                    TAG_String (8) ('Name'): "placebo:boss_health_mult"
+                }
+            }
+            TAG_String (8) ('Name'): "generic.maxHealth"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.0
+            TAG_List (9) ('Modifiers') (1 entries of TAG_Compound (10))
+            {
+                TAG_Compound (10) ('')
+                {
+                    TAG_Long (4) ('UUIDMost'): -8051163831831673197
+                    TAG_Long (4) ('UUIDLeast'): -6353133523020733634
+                    TAG_Double (6) ('Amount'): 0.5409387946128845
+                    TAG_Int (3) ('Operation'): 0
+                    TAG_String (8) ('Name'): "placebo:boss_knockback_resist"
+                }
+            }
+            TAG_String (8) ('Name'): "generic.knockbackResistance"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.25
+            TAG_List (9) ('Modifiers') (1 entries of TAG_Compound (10))
+            {
+                TAG_Compound (10) ('')
+                {
+                    TAG_Long (4) ('UUIDMost'): -2491656568983764002
+                    TAG_Long (4) ('UUIDLeast'): -5973111529694445785
+                    TAG_Double (6) ('Amount'): 0.3377331495285034
+                    TAG_Int (3) ('Operation'): 2
+                    TAG_String (8) ('Name'): "placebo:boss_speed_mult"
+                }
+            }
+            TAG_String (8) ('Name'): "generic.movementSpeed"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.0
+            TAG_String (8) ('Name'): "generic.armor"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.0
+            TAG_String (8) ('Name'): "generic.armorToughness"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 1.0
+            TAG_String (8) ('Name'): "forge.swimSpeed"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 16.0
+            TAG_String (8) ('Name'): "generic.followRange"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 2.0
+            TAG_List (9) ('Modifiers') (1 entries of TAG_Compound (10))
+            {
+                TAG_Compound (10) ('')
+                {
+                    TAG_Long (4) ('UUIDMost'): 3982763945290255993
+                    TAG_Long (4) ('UUIDLeast'): -5057002098634238969
+                    TAG_Double (6) ('Amount'): 2.9760396480560303
+                    TAG_Int (3) ('Operation'): 2
+                    TAG_String (8) ('Name'): "placebo:boss_damage_bonus"
+                }
+            }
+            TAG_String (8) ('Name'): "generic.attackDamage"
+        }
+    }
+    TAG_Byte (1) ('Invulnerable'): 0
+    TAG_Byte (1) ('FallFlying'): 0
+    TAG_Int (3) ('PortalCooldown'): 0
+    TAG_Float (5) ('AbsorptionAmount'): 0.0
+    TAG_Float (5) ('FallDistance'): 0.0
+    TAG_Short (2) ('DeathTime'): 0
+    TAG_List (9) ('HandDropChances') (2 entries of TAG_Float (5))
+    {
+        TAG_Float (5) (''): 0.47952384
+        TAG_Float (5) (''): 0.22986835
+    }
+    TAG_Byte (1) ('PersistenceRequired'): 1
+    TAG_String (8) ('id'): "minecraft:creeper"
+    TAG_Short (2) ('Fuse'): 30
+    TAG_List (9) ('Motion') (3 entries of TAG_Double (6))
+    {
+        TAG_Double (6) (''): 0.0
+        TAG_Double (6) (''): -0.0784000015258789
+        TAG_Double (6) (''): 0.0
+    }
+    TAG_Byte (1) ('Leashed'): 0
+    TAG_Long (4) ('UUIDLeast'): -7798205154081350638
+    TAG_Float (5) ('Health'): 53.47248
+    TAG_Byte (1) ('LeftHanded'): 0
+    TAG_Short (2) ('Air'): 300
+    TAG_Byte (1) ('OnGround'): 1
+    TAG_Int (3) ('Dimension'): 0
+    TAG_Byte (1) ('ignited'): 0
+    TAG_List (9) ('Rotation') (2 entries of TAG_Float (5))
+    {
+        TAG_Float (5) (''): 254.39417
+        TAG_Float (5) (''): -32.689598
+    }
+    TAG_Byte (1) ('UpdateBlocked'): 0
+    TAG_List (9) ('HandItems') (2 entries of TAG_Compound (10))
+    {
+        TAG_Compound (10) ('')
+        {
+            TAG_String (8) ('id'): "minecraft:golden_sword"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_String (8) ('id'): "minecraft:shield"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Short (2) ('Damage'): 0
+        }
+    }
+    TAG_List (9) ('ArmorDropChances') (4 entries of TAG_Float (5))
+    {
+        TAG_Float (5) (''): 0.20608667
+        TAG_Float (5) (''): 2.0
+        TAG_Float (5) (''): 0.21929914
+        TAG_Float (5) (''): 0.20494446
+    }
+    TAG_Long (4) ('UUIDMost'): 229638537332935142
+    TAG_String (8) ('CustomName'): "Jennifer"
+    TAG_List (9) ('Pos') (3 entries of TAG_Double (6))
+    {
+        TAG_Double (6) (''): -411.67559662560626
+        TAG_Double (6) (''): 13.0
+        TAG_Double (6) (''): -6.446894590157211
+    }
+    TAG_Short (2) ('Fire'): -1
+    TAG_List (9) ('ArmorItems') (4 entries of TAG_Compound (10))
+    {
+        TAG_Compound (10) ('')
+        {
+            TAG_String (8) ('id'): "minecraft:golden_boots"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_String (8) ('id'): "minecraft:golden_leggings"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Compound (10) ('tag')
+            {
+                TAG_List (9) ('ench') (2 entries of TAG_Compound (10))
+                {
+                    TAG_Compound (10) ('')
+                    {
+                        TAG_Short (2) ('lvl'): 4
+                        TAG_Short (2) ('id'): 0
+                    }
+                    TAG_Compound (10) ('')
+                    {
+                        TAG_Short (2) ('lvl'): 1
+                        TAG_Short (2) ('id'): 10
+                    }
+                }
+                TAG_Compound (10) ('display')
+                {
+                    TAG_List (9) ('Lore') (1 entries of TAG_String (8))
+                    {
+                        TAG_String (8) (''): "§9§oRare§r"
+                    }
+                    TAG_String (8) ('Name'): "§9Jennifer's §r§9Energetic Golden Schynbalds of the Sea"
+                }
+                TAG_Compound (10) ('Affixes')
+                {
+                    TAG_Float (5) ('apotheosis:swim_speed'): 0.27514356
+                    TAG_Float (5) ('apotheosis:movement_speed'): 0.084116116
+                }
+                TAG_List (9) ('AttributeModifiers') (4 entries of TAG_Compound (10))
+                {
+                    TAG_Compound (10) ('')
+                    {
+                        TAG_Long (4) ('UUIDMost'): -2861585646493481178
+                        TAG_Long (4) ('UUIDLeast'): -6113244764726669811
+                        TAG_Double (6) ('Amount'): 0.0
+                        TAG_String (8) ('Slot'): "legs"
+                        TAG_String (8) ('AttributeName'): "generic.armorToughness"
+                        TAG_Int (3) ('Operation'): 0
+                        TAG_String (8) ('Name'): "Armor toughness"
+                    }
+                    TAG_Compound (10) ('')
+                    {
+                        TAG_Long (4) ('UUIDMost'): -2861585646493481178
+                        TAG_Long (4) ('UUIDLeast'): -6113244764726669811
+                        TAG_Double (6) ('Amount'): 3.0
+                        TAG_String (8) ('Slot'): "legs"
+                        TAG_String (8) ('AttributeName'): "generic.armor"
+                        TAG_Int (3) ('Operation'): 0
+                        TAG_String (8) ('Name'): "Armor modifier"
+                    }
+                    TAG_Compound (10) ('')
+                    {
+                        TAG_Long (4) ('UUIDMost'): 5732196886501343347
+                        TAG_Long (4) ('UUIDLeast'): -8991770634202975276
+                        TAG_Double (6) ('Amount'): 0.08411611616611481
+                        TAG_String (8) ('Slot'): "legs"
+                        TAG_String (8) ('AttributeName'): "generic.movementSpeed"
+                        TAG_Int (3) ('Operation'): 1
+                        TAG_String (8) ('Name'): "affix_generic.movementSpeed"
+                    }
+                    TAG_Compound (10) ('')
+                    {
+                        TAG_Long (4) ('UUIDMost'): 8249762970127977888
+                        TAG_Long (4) ('UUIDLeast'): -6423360637015978672
+                        TAG_Double (6) ('Amount'): 0.275143563747406
+                        TAG_String (8) ('Slot'): "legs"
+                        TAG_String (8) ('AttributeName'): "forge.swimSpeed"
+                        TAG_Int (3) ('Operation'): 1
+                        TAG_String (8) ('Name'): "affix_forge.swimSpeed"
+                    }
+                }
+            }
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_String (8) ('id'): "minecraft:golden_chestplate"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_String (8) ('id'): "minecraft:golden_helmet"
+            TAG_Byte (1) ('Count'): 1
+            TAG_Short (2) ('Damage'): 0
+        }
+    }
+    TAG_Byte (1) ('CanPickUpLoot'): 0
+    TAG_Short (2) ('HurtTime'): 0
+    TAG_Byte (1) ('ExplosionRadius'): 3
+    TAG_List (9) ('SurgeAABB') (6 entries of TAG_Double (6))
+    {
+        TAG_Double (6) (''): -411.9755966375272
+        TAG_Double (6) (''): 13.0
+        TAG_Double (6) (''): -6.746894602078139
+        TAG_Double (6) (''): -411.37559661368533
+        TAG_Double (6) (''): 14.700000047683714
+        TAG_Double (6) (''): -6.1468945782362825
+    }
+    TAG_List (9) ('ActiveEffects') (3 entries of TAG_Compound (10))
+    {
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Ambient'): 0
+            TAG_List (9) ('CurativeItems') (1 entries of TAG_Compound (10))
+            {
+                TAG_Compound (10) ('')
+                {
+                    TAG_String (8) ('id'): "minecraft:milk_bucket"
+                    TAG_Byte (1) ('Count'): 1
+                    TAG_Short (2) ('Damage'): 0
+                }
+            }
+            TAG_Byte (1) ('ShowParticles'): 1
+            TAG_Int (3) ('Duration'): 3790
+            TAG_Byte (1) ('Id'): 10
+            TAG_Byte (1) ('Amplifier'): 1
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Ambient'): 0
+            TAG_List (9) ('CurativeItems') (1 entries of TAG_Compound (10))
+            {
+                TAG_Compound (10) ('')
+                {
+                    TAG_String (8) ('id'): "minecraft:milk_bucket"
+                    TAG_Byte (1) ('Count'): 1
+                    TAG_Short (2) ('Damage'): 0
+                }
+            }
+            TAG_Byte (1) ('ShowParticles'): 1
+            TAG_Int (3) ('Duration'): 3790
+            TAG_Byte (1) ('Id'): 13
+            TAG_Byte (1) ('Amplifier'): 0
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Byte (1) ('Ambient'): 0
+            TAG_List (9) ('CurativeItems') (1 entries of TAG_Compound (10))
+            {
+                TAG_Compound (10) ('')
+                {
+                    TAG_String (8) ('id'): "minecraft:milk_bucket"
+                    TAG_Byte (1) ('Count'): 1
+                    TAG_Short (2) ('Damage'): 0
+                }
+            }
+            TAG_Byte (1) ('ShowParticles'): 1
+            TAG_Int (3) ('Duration'): 3790
+            TAG_Byte (1) ('Id'): 11
+            TAG_Byte (1) ('Amplifier'): 1
+        }
+    }
+}

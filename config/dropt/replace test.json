@@ -1,0 +1,35 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": ["minecraft:stone"]
+        }
+      },
+      "drops": [
+        {
+          "selector": { "weight": { "value": 2 } },
+          "item": { "items": ["minecraft:cobblestone"] },
+          "replaceBlock": {
+            "block": "minecraft:log",
+            "properties": { "axis": "y", "variant": "oak" }
+          }
+        },
+        {
+          "item": { "items": ["minecraft:cobblestone"] },
+          "replaceBlock": {
+            "block": "minecraft:log",
+            "properties": { "axis": "x", "variant": "spruce" }
+          }
+        },
+        {
+          "item": { "items": ["minecraft:cobblestone"] },
+          "replaceBlock": {
+            "block": "minecraft:log",
+            "properties": { "axis": "z", "variant": "birch" }
+          }
+        }
+      ]
+    }
+  ]
+}

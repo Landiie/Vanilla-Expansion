@@ -1,0 +1,10 @@
+{
+  "custom.advnormal": {
+    "sounds": [
+      {
+        "name": "custom/adv_normal"
+      }
+    ],
+    "subtitle": "AdvancementNormal"
+  }
+}

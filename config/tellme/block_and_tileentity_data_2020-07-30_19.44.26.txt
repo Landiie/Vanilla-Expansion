@@ -1,0 +1,6 @@
+Stone (minecraft:stone - 1:0) no TileEntity
+Full block state: minecraft:stone[variant=stone]
+Hardness: 1.5000, Explosion resistance: 6.0000, Material: ROCK
+Block class: net.minecraft.block.BlockStone
+IBlockState properties, including getActualState():
+PropertyEnum{name=variant, clazz=class net.minecraft.block.BlockStone$EnumType, values=[stone, granite, smooth_granite, diorite, smooth_diorite, andesite, smooth_andesite]}: stone
