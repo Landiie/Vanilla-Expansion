@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "COLD",
     "MAGICAL",
-    "DRY",
-    "HILLS"
+    "HILLS",
+    "DRY"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [

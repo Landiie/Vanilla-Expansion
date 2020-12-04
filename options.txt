@@ -89,9 +89,9 @@ key_of.key.zoom:46
 key_Reload Menu | CTRL + :19
 key_Toggle Customization Overlay | CTRL + :46
 key_quark.keybind.toggleAutojump:48
-key_quark.keybind.lockBuilding:37
 key_quark.keybind.changeHotbar:44
 key_quark.keybind.playerSort:0
+key_quark.keybind.lockBuilding:37
 key_keybind.baublesinventory:48
 key_key.mclib.dashboard:11
 key_minetogether.key.friends:50:CONTROL
