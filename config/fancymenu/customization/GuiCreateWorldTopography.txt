@@ -1,0 +1,37 @@
+type = menu
+
+customization-meta {
+  identifier = com.bloodnbonesgaming.topography.client.gui.GuiCreateWorldTopography
+  renderorder = foreground
+}
+
+customization {
+  identifier = %id=980%
+  orientation = top-left
+  x = -4
+  action = movebutton
+  y = 68
+}
+
+customization {
+  identifier = %id=980%
+  width = 155
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=68%
+  action = hidebutton
+}
+
+customization {
+  path = resources/assets/fml/textures/gui/loading.gif
+  orientation = top-left
+  x = 367
+  width = 85
+  action = addtexture
+  y = 86
+  height = 100
+}
+

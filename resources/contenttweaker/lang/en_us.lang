@@ -1,7 +1,7 @@
-//items
+//items//////////////////////////
 item.contenttweaker.farming_mastery.name=Farming Mastery
 item.contenttweaker.p_peach.name=Perfect Peach
-//blocks
+//blocks/////////////////////////
 tile.contenttweaker.alpha_leaves.name=Alpha Leaves
 tile.contenttweaker.classic_grass_block.name=Classic Grass Block
 tile.contenttweaker.big_egg.name=Big Egg
@@ -12,6 +12,23 @@ tile.contenttweaker.classic_gravel.name=Classic Gravel
 tile.contenttweaker.classic_bricks.name=Classic Bricks
 tile.contenttweaker.silt.name=Silt
 
-//fluids
+//fluids/////////////////////////
 fluid.honey=Honey
 fluid.glow_paste=Glow Paste
+//dyed water
+fluid.white_dye=White Dyed Water
+fluid.orange_dye=Orange Dyed Water
+fluid.magenta_dye=Magenta Dyed Water
+fluid.light_blue_dye=Light Blue Dyed Water
+fluid.yellow_dye=Yellow Dyed Water
+fluid.lime_dye=Lime Dyed Water
+fluid.pink_dye=Pink Dyed Water
+fluid.gray_dye=Gray Dyed Water
+fluid.light_gray_dye=Light Gray Dyed Water
+fluid.cyan_dye=Cyan Dyed Water
+fluid.purple_dye=Purple Dyed Water
+fluid.blue_dye=Blue Dyed Water
+fluid.brown_dye=Brown Dyed Water
+fluid.green_dye=Green Dyed Water
+fluid.red_dye=Red Dyed Water
+fluid.black_dye=Black Dyed Water

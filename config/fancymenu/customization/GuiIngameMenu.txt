@@ -1,0 +1,19 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiIngameMenu
+  renderorder = foreground
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = opengui
+  x = -48
+  width = 100
+  action = addbutton
+  y = 44
+  label = Pack Mode
+  value = me.illgilp.packmodemenu.gui.ConfigScreen
+  height = 20
+}
+

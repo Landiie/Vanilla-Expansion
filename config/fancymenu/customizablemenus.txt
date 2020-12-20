@@ -9,3 +9,18 @@ net.minecraft.client.gui.GuiOptions {
 com.themastergeneral.enderfuge.client.gui.GUIEnderfuge {
 }
 
+wolforce.mechanics.gui.client.GuiAlloyFurnace {
+}
+
+mezz.jei.gui.recipes.RecipesGui {
+}
+
+net.minecraft.client.gui.inventory.GuiInventory {
+}
+
+net.minecraft.client.gui.GuiIngameMenu {
+}
+
+net.minecraft.client.gui.GuiVideoSettings {
+}
+

@@ -88,9 +88,9 @@ key_key.hotbar.9:10
 key_of.key.zoom:46
 key_Reload Menu | CTRL + :19
 key_Toggle Customization Overlay | CTRL + :46
-key_quark.keybind.toggleAutojump:48
 key_quark.keybind.changeHotbar:44
 key_quark.keybind.playerSort:0
+key_quark.keybind.toggleAutojump:48
 key_quark.keybind.lockBuilding:37
 key_keybind.baublesinventory:48
 key_key.mclib.dashboard:11
@@ -143,7 +143,7 @@ key_keybind.titles.openTitleSelection:210
 key_key.toolbelt.open:19
 key_key.toolbelt.cycle.left:0
 key_key.toolbelt.cycle.right:0
-soundCategory_master:1.0
+soundCategory_master:0.119205296
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

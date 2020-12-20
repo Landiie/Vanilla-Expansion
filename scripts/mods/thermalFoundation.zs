@@ -1,7 +1,7 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 
-val thermalRemoval = [
+val thermalDisable = [
 <minecraft:spawn_egg>.withTag({EntityTag: {id: "thermalfoundation:blizz"}}),
 <minecraft:spawn_egg>.withTag({EntityTag: {id: "thermalfoundation:blitz"}}),
 <minecraft:spawn_egg>.withTag({EntityTag: {id: "thermalfoundation:basalz"}}),
@@ -267,7 +267,7 @@ val thermalFluid = [
     <liquid:tree_oil>
 ] as ILiquidStack[];
 
-for item in thermalRemoval
+for item in thermalDisable
 {
     mods.jei.JEI.removeAndHide(item, true);
     recipes.remove(item, true);

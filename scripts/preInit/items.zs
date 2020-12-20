@@ -187,16 +187,28 @@ fluidGlowPaste.setStillLocation("contenttweaker:fluids/glow_paste");
 fluidGlowPaste.setFlowingLocation("contenttweaker:fluids/glow_paste_flow");
 fluidGlowPaste.register();
 
-// dye fluids, map for the fluids in order,
+// dye fluids, array for the fluids in order,
 val dyeWaterRegistry as string[] = [
+    "white_dye",
+    "orange_dye",
+    "magenta_dye",
+    "light_blue_dye",
+    "yellow_dye",
+    "lime_dye",
+    "pink_dye",
+    "gray_dye",
+    "light_gray_dye",
+    "cyan_dye",
+    "purple_dye",
+    "blue_dye",
+    "brown_dye",
+    "green_dye",
     "red_dye",
-    "blue_dye"
+    "black_dye"
 ];
 
 for dye in dyeWaterRegistry{
     var dyeWater = VanillaFactory.createFluid(dye, Color.fromHex("ffe357"));
-    dyeWater.setDensity(5000);
-    dyeWater.setViscosity(5000);
     dyeWater.setVaporize(true);
     dyeWater.setColorize(false);
     dyeWater.setStillLocation("contenttweaker:fluids/" + dye);

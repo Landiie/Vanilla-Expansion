@@ -1,6 +1,18 @@
 
 import crafttweaker.item.IItemStack;
 
+val minestrappDisable as IItemStack[] = [
+    <minestrapp:m_dye>,
+    <minestrapp:m_dye:1>,
+    <minestrapp:m_dye:2>,
+    <minestrapp:m_dye:3>,
+    <minestrapp:m_dye:4>,
+    <minestrapp:m_dye:5>,
+    <minestrapp:m_dye:6>,
+    <minestrapp:m_dye:7>,
+    <minestrapp:m_dye:8>
+];
+
 val minestrappRemoval as IItemStack[] = [
     <minestrapp:glow_paste>,
     <minestrapp:m_concrete_powder>,
@@ -30,6 +42,11 @@ val minestrappJeiCategories as string[] = [
     "freezing",
     "deep_freezing"
 ];
+
+//remove remove and hide from game in array
+for item in minestrappDisable{
+    mods.jei.JEI.removeAndHide(item);
+}
 
 //remove recipes in array
 for item in minestrappRemoval{

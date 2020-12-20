@@ -17,7 +17,7 @@ val foundryJeiCategories as string[] = [
     "foundry.casting_table.block"
 ];
 
-val foundryRemoval as IItemStack[] = [
+val foundryDisable as IItemStack[] = [
     <foundry:fluidcontainer:*>,
     <foundry:mold:*>,
     <foundry:component>,
@@ -195,7 +195,7 @@ val foundryRemoval as IItemStack[] = [
     <theaurorian:ceruleanbucket>.withTag({Fluid: {FluidName: "liquidglassblack", Amount: 1000}})
 ];
 
-for item in foundryRemoval{
+for item in foundryDisable{
     mods.jei.JEI.removeAndHide(item);
 }
 
